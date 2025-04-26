@@ -10,6 +10,6 @@ app.get("/api", (req, res) => {
   res.json({ message: "This is a sample API endpoint." });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
